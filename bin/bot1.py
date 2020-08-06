@@ -1,0 +1,114 @@
+# coding: utf-8
+'''
+bot1作业主函数
+'''
+from setting import *
+import bs4
+from utils.myException import exception
+from utils.myLog import log
+from utils import writeData,sendEmail
+#日志导入
+from utils.readData import readExcel
+import xlwings as xw
+
+logger = log.get_logger()
+
+
+def xmlToList(file_xml):
+    xml = open(file_xml,'r')
+    doc = bs4.BeautifulSoup(xml,features='xml')
+    employees = doc.select("Employee")
+    #存储xml数据的数组
+    xmlList = []
+
+    for employee in employees:
+        firstName = employee.FirstName.text
+        lastName = employee.LastName.text
+        contactNo = employee.ContactNo.text
+        email = employee.Email.text
+        city = employee.Address.City.text
+        state = employee.Address.State.text
+        zip = employee.Address.Zip.text
+        years = int(employee.Years.text)
+        performance = int(employee.Performance.text)
+
+        #筛选符合要求的数据
+        if years>=5 and performance>=5 and city=='NY' and state == 'New York':
+            xmlList.append([firstName,lastName,contactNo,email,city,state,zip,years,performance,'Y'])
+        else:
+            xmlList.append([firstName,lastName,contactNo,email,city,state,zip,years,performance,'N'])
+
+    #异常处理
+    if len(xmlList) == 0:
+        exception.getException(status=201)
+
+    return xmlList
+
+#按题目要求筛选数据
+def filterData(list):
+    outList = []
+    #将列标题加入列表
+    outList.append(list[0])
+    #筛选Gratuity-Eligibility合格的数据
+    for i in range(len(list)):
+        if list[i][9] == 'Y':
+            outList.append(list[i])
+
+    return outList
+
+
+#====程序入口====================================================================
+if __name__ == '__main__':
+    logger.info("======程序开始运行======")
+    #读取xml、写入Excel，读取Excel，筛选数据、将每条数据保存为Excel文件、发送邮件给指定的人
+
+    #将xml文件数据提取到list中
+    list=xmlToList(Bot1_EMPLOYEE_XML)
+
+    # 将list数组全部写入Excel
+    #需要修改样式
+    writeData.toExcel(list,Bot1_EMPLOYEE_XLSX,SHEET_NUMBER=0,A_Row='a2')
+
+    # 读取employee.xlsx,筛选表格数据
+    logger.info("正在筛选表格数据")
+    listExcel = filterData(readExcel(Bot1_EMPLOYEE_XLSX))
+
+    #保存需要发送的邮件名称
+    EXCEL_FILE = []
+    receivers = []
+    print(listExcel)
+    for i in range(1,len(listExcel)):
+        # 新建每一个所需发送的员工的表格
+        print(i)
+        app = xw.App(visible=False, add_book=False)
+        wb = app.books.add()
+        EXCEL_FILE.append("../report/" + listExcel[i][3]+"_Bot_1_Output.xlsx")
+        receivers.append(listExcel[i][3])
+        wb.save(EXCEL_FILE[i-1])
+        wb.close()
+        app.quit()
+
+
+    receivers[0] = 'liugji@digitalchina.com'
+
+    # 二维列表按列取元素
+    outPut = [i[7:10] for i in listExcel]
+    #将数据写入各自的表格中
+    for i in range(1,len(outPut)):
+        writeData.toExcel([outPut[0],outPut[i]],EXCEL_FILE[i-1])
+        filename=receivers[i]+"_Bot_1_Output.xlsx"
+        # receivers = list[i][3]
+        print("收件人邮箱：" + receivers[i])
+        sendEmail.email(EXCEL_FILE[i], receivers[0],filename)
+
+
+
+
+    #正常退出程序
+    exception.getException(status=200)
+
+
+
+
+
+
