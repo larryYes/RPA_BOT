@@ -5,9 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bot2/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Bot2/Data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bot2/MacroSheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Bot2/MacroSheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bot2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bot2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/runtime.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/runtime.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/readData.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/readData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/writeData.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/writeData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +31,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bot3" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_Code\pythonCode\BOT\Bot2" />
       <recent name="D:\_Code\pythonCode\BOT" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bot2">
+  <component name="RunManager" selected="Python.bot3">
     <configuration name="bot1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BOT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,6 +85,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="bot3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BOT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/bot3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="readData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BOT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bot3" />
         <item itemvalue="Python.bot2" />
         <item itemvalue="Python.bot1" />
         <item itemvalue="Python.readData" />
@@ -127,7 +151,7 @@
       <workItem from="1596683729185" duration="11038000" />
       <workItem from="1596700669285" duration="1455000" />
       <workItem from="1596702158857" duration="86000" />
-      <workItem from="1596703074846" duration="14149000" />
+      <workItem from="1596703074846" duration="24643000" />
     </task>
     <servers />
   </component>
@@ -139,30 +163,30 @@
       <screen x="0" y="0" width="1470" height="864" />
     </state>
     <state x="190" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596700470177" />
-    <state width="1427" height="227" key="GridCell.Tab.0.bottom" timestamp="1596770068138">
+    <state width="1427" height="231" key="GridCell.Tab.0.bottom" timestamp="1596786744125">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state width="1427" height="227" key="GridCell.Tab.0.bottom/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596770068138" />
+    <state width="1427" height="231" key="GridCell.Tab.0.bottom/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596786744125" />
     <state width="1207" height="250" key="GridCell.Tab.0.bottom/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1596696505473" />
-    <state width="1427" height="227" key="GridCell.Tab.0.center" timestamp="1596770068138">
+    <state width="1427" height="231" key="GridCell.Tab.0.center" timestamp="1596786744125">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state width="1427" height="227" key="GridCell.Tab.0.center/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596770068138" />
+    <state width="1427" height="231" key="GridCell.Tab.0.center/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596786744125" />
     <state width="1207" height="250" key="GridCell.Tab.0.center/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1596696505473" />
-    <state width="1427" height="227" key="GridCell.Tab.0.left" timestamp="1596770068137">
+    <state width="1427" height="231" key="GridCell.Tab.0.left" timestamp="1596786744125">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state width="1427" height="227" key="GridCell.Tab.0.left/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596770068137" />
+    <state width="1427" height="231" key="GridCell.Tab.0.left/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596786744125" />
     <state width="1207" height="250" key="GridCell.Tab.0.left/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1596696505473" />
-    <state width="1427" height="227" key="GridCell.Tab.0.right" timestamp="1596770068138">
+    <state width="1427" height="231" key="GridCell.Tab.0.right" timestamp="1596786744125">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state width="1427" height="227" key="GridCell.Tab.0.right/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596770068138" />
+    <state width="1427" height="231" key="GridCell.Tab.0.right/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596786744125" />
     <state width="1207" height="250" key="GridCell.Tab.0.right/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1596696505473" />
-    <state x="237" y="74" key="SettingsEditor" timestamp="1596767378539">
+    <state x="77" y="91" key="SettingsEditor" timestamp="1596782996165">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
-    <state x="237" y="74" key="SettingsEditor/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596767378539" />
+    <state x="77" y="91" key="SettingsEditor/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596782996165" />
     <state x="271" y="39" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596699534643">
       <screen x="0" y="0" width="1470" height="864" />
     </state>
@@ -184,8 +208,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BOT$bot3.coverage" NAME="bot3 Coverage Results" MODIFIED="1596786744121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
     <SUITE FILE_PATH="coverage/BOT$bot1.coverage" NAME="bot1 Coverage Results" MODIFIED="1596767249023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
-    <SUITE FILE_PATH="coverage/BOT$bot2.coverage" NAME="bot2 Coverage Results" MODIFIED="1596770068133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/BOT$bot2.coverage" NAME="bot2 Coverage Results" MODIFIED="1596782399923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
     <SUITE FILE_PATH="coverage/BOT$readData.coverage" NAME="readData Coverage Results" MODIFIED="1596702090398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>
