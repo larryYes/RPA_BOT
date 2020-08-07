@@ -1,6 +1,6 @@
-'''
+"""
 发送邮件
-'''
+"""
 import os
 import smtplib
 from email.mime.text import MIMEText
@@ -8,9 +8,9 @@ from email.utils import formataddr
 from email.header import Header
 from email.mime.multipart import MIMEMultipart
 from utils.myLog import log
-from utils.myException import exception
 
-def email(sheetFile,receivers,filename):
+
+def email(sheetFile, receivers, filename):
     # 登陆邮件服务器
     log.get_logger().info("正在发送邮件")
     smtpObj = smtplib.SMTP('smtp.qq.com', 587)
@@ -37,7 +37,7 @@ def email(sheetFile,receivers,filename):
     print("表格附件文件名为：%s" % sheetFile)
     sheetFileLoc = os.path.join(sheetFile)
     sheetAtt = MIMEText(open(sheetFileLoc, 'rb').read(), 'base64', 'gb2312')
-    sheetAtt.add_header('Content-Disposition', 'attachment', filename=filename)#附件的名字
+    sheetAtt.add_header('Content-Disposition', 'attachment', filename=filename)  # 附件的名字
     message.attach(sheetAtt)
 
     try:
@@ -48,5 +48,3 @@ def email(sheetFile,receivers,filename):
 
     except smtplib.SMTPException:
         log.get_logger().error('失败：邮件无法发送')
-
-

@@ -1,14 +1,15 @@
 import xlwings as xw
 from utils.myLog import log
 
-#读取Excel表中的所有数据
+
+# 读取Excel表中的所有数据
 def readExcel(EXCEL_FILE):
     app = xw.App(visible=False, add_book=False)
     # 新建工作簿 wb = app.books.add()
     wb = app.books.open(EXCEL_FILE)
-    #引用工作表
+    # 引用工作表
     sht = wb.sheets[0]
-    listExcel = sht.range('A1').expand().value#读取所有的值
+    listExcel = sht.range('A1').expand().value  # 读取所有的值
     # listExcel = []
     # #计算单元格的行数
     # rng = sht.range('a1').expand('table')
@@ -23,5 +24,3 @@ def readExcel(EXCEL_FILE):
     app.quit()
     log.get_logger().info("成功：读取Excel", exc_info=True)
     return listExcel
-
-

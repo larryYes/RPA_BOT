@@ -1,12 +1,13 @@
 # coding: utf-8
-'''
+"""
 异常处理文件
-'''
+"""
 
 import sys
 from utils.myLog import log
 
 logger = log.get_logger()
+
 
 class exception:
     # 异常处理
@@ -29,4 +30,3 @@ class exception:
         else:
             print("程序无异常")
             logger.info("程序无异常")
-

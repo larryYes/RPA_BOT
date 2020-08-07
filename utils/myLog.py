@@ -1,7 +1,7 @@
 # coding: utf-8
-'''
+"""
 日志记录文件
-'''
+"""
 
 
 from setting import *
