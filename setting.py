@@ -19,3 +19,6 @@ APP_ENVIRONMENT = 'dev'  # 运行环境，如测试环境还是生产环境
 
 Bot1_EMPLOYEE_XML = "../bot1/employee.xml"
 Bot1_EMPLOYEE_XLSX = "../bot1/employee.xlsx"
+
+Bot2_Data_Xlsx = "../bot2/Data.xlsx"
+Bot2_MacroSheet_Xlsx = "../bot2/MacroSheet.xlsx"
