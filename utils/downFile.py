@@ -1,4 +1,4 @@
-import urllib
+import urllib.request
 from time import sleep
 from selenium import webdriver
 
