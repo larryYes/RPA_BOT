@@ -7,6 +7,7 @@ import bs4
 from utils.myException import exception
 from utils.myLog import log
 from utils import writeData,sendEmail
+from utils.setStyle import *
 #日志导入
 from utils.readData import readExcel
 import xlwings as xw
@@ -53,8 +54,8 @@ def filterData(list):
     for i in range(len(list)):
         if list[i][9] == 'Y':
             outList.append(list[i])
-
     return outList
+
 
 
 #====程序入口====================================================================
@@ -66,30 +67,32 @@ if __name__ == '__main__':
     list=xmlToList(Bot1_EMPLOYEE_XML)
 
     # 将list数组全部写入Excel
-    #需要修改样式
     writeData.toExcel(list,Bot1_EMPLOYEE_XLSX,SHEET_NUMBER=0,A_Row='a2')
 
-    # 读取employee.xlsx,筛选表格数据
-    logger.info("正在筛选表格数据")
-    listExcel = filterData(readExcel(Bot1_EMPLOYEE_XLSX))
+    bordersStyle(Bot1_EMPLOYEE_XLSX) #设置样式
 
-    #保存需要发送的邮件名称
+   # 读取employee.xlsx,筛选表格数据
+    logger.info("读取并筛选表格数据")
+    listExcel = filterData(readExcel(Bot1_EMPLOYEE_XLSX))
+    print("筛选得到的数据为：" )
+    print(listExcel)
+
+    #提取收件人邮箱和创建并设置附件名称
     EXCEL_FILE = []
     receivers = []
-    print(listExcel)
-    for i in range(1,len(listExcel)):
+    receivers.append('liugji@digitalchina.com')
+    for i in range(1, len(listExcel)):
         # 新建每一个所需发送的员工的表格
-        print(i)
         app = xw.App(visible=False, add_book=False)
         wb = app.books.add()
-        EXCEL_FILE.append("../report/" + listExcel[i][3]+"_Bot_1_Output.xlsx")
+        EXCEL_FILE.append("../report/" + listExcel[i][3] + "_Bot_1_Output.xlsx")
+        bordersStyle(EXCEL_FILE[i - 1])#设置表格样式
         receivers.append(listExcel[i][3])
-        wb.save(EXCEL_FILE[i-1])
+        wb.save(EXCEL_FILE[i - 1])
         wb.close()
         app.quit()
 
 
-    receivers[0] = 'liugji@digitalchina.com'
 
     # 二维列表按列取元素
     outPut = [i[7:10] for i in listExcel]
@@ -97,14 +100,11 @@ if __name__ == '__main__':
     for i in range(1,len(outPut)):
         writeData.toExcel([outPut[0],outPut[i]],EXCEL_FILE[i-1])
         filename=receivers[i]+"_Bot_1_Output.xlsx"
-        # receivers = list[i][3]
         print("收件人邮箱：" + receivers[i])
-        sendEmail.email(EXCEL_FILE[i], receivers[0],filename)
+        # sendEmail.email(EXCEL_FILE[i], receivers[0],filename)
 
 
-
-
-    #正常退出程序
+    # 正常退出程序
     exception.getException(status=200)
 
 
