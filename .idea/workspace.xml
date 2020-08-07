@@ -4,10 +4,6 @@
     <list default="true" id="172f4ece-26e3-43c9-a38f-cde72747616f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/bot1.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bot1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot1/Employee.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/bot1/Employee.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/jaipatel@xyz.com_Bot_1_Output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/report/jaipatel@xyz.com_Bot_1_Output.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/mohandev@xyz.com_Bot_1_Output.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/report/mohandev@xyz.com_Bot_1_Output.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/runtime.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/runtime.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,7 @@
       <workItem from="1596683729185" duration="11038000" />
       <workItem from="1596700669285" duration="1455000" />
       <workItem from="1596702158857" duration="86000" />
-      <workItem from="1596703074846" duration="11837000" />
+      <workItem from="1596703074846" duration="13394000" />
     </task>
     <servers />
   </component>

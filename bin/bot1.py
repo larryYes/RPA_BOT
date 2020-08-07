@@ -61,7 +61,7 @@ def filterData(list):
 #====程序入口====================================================================
 if __name__ == '__main__':
     logger.info("======程序开始运行======")
-    #读取xml、写入Excel，读取Excel，筛选数据、将每条数据保存为Excel文件、发送邮件给指定的人
+    #读取xml、写入Excel，读取Excel，筛选符合条件的数据、将每条数据保存为对应的Excel文件、将每个Excel文件发送给对应的人
 
     #将xml文件数据提取到list中
     list=xmlToList(Bot1_EMPLOYEE_XML)
@@ -102,7 +102,6 @@ if __name__ == '__main__':
         filename=receivers[i]+"_Bot_1_Output.xlsx"
         print("收件人邮箱：" + receivers[i])
         # sendEmail.email(EXCEL_FILE[i], receivers[0],filename)
-
 
     # 正常退出程序
     exception.getException(status=200)
