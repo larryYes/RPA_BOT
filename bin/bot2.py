@@ -1,5 +1,6 @@
 import xlwings as xw
 
+from utils.myException import exception
 from utils.readData import readExcel
 from setting import *
 from utils.writeData import toExcel
@@ -43,3 +44,5 @@ if __name__ == '__main__':
     SAVE_PATH = '../Bot2/' + 'liugji@digitalchina.com' + '_Bot2_Output.xlsx'
     # 将匹配的数据写入新表中
     toExcel(data, Bot2_Data_Xlsx, A_Row='a2', SAVE_PATH=SAVE_PATH)
+# 正常退出程序
+exception.getException(status=200)

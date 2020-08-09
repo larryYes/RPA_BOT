@@ -387,3 +387,76 @@ NoneType: None
 INFO - 2020-08-07 14:40:03,794 - process: 13544 - readData.py - utils.myLog - 24 - readData - 成功：读取Excel
 NoneType: None
 INFO - 2020-08-07 14:40:05,098 - process: 13544 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:52:26,138 - process: 31596 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 16:52:28,301 - process: 31596 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:53:08,326 - process: 31596 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 16:53:09,488 - process: 31596 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 16:54:33,145 - process: 25364 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 16:54:34,485 - process: 25364 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:54:36,722 - process: 25364 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 16:54:37,938 - process: 25364 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 16:55:46,955 - process: 11052 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 16:55:48,300 - process: 11052 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:55:54,877 - process: 11052 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 16:55:56,091 - process: 11052 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 16:56:03,836 - process: 11052 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:56:08,235 - process: 11052 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:56:09,877 - process: 11052 - myException.py - utils.myLog - 16 - myException - 程序正常退出
+INFO - 2020-08-09 16:58:17,815 - process: 11916 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 16:58:19,227 - process: 11916 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:58:21,493 - process: 11916 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 16:58:22,707 - process: 11916 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 16:58:29,973 - process: 11916 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:58:31,360 - process: 11916 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:58:32,593 - process: 11916 - myException.py - utils.myLog - 16 - myException - 程序正常退出
+INFO - 2020-08-09 16:59:36,664 - process: 19676 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 16:59:37,908 - process: 19676 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:59:40,116 - process: 19676 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 16:59:41,216 - process: 19676 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 16:59:47,851 - process: 19676 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:59:50,256 - process: 19676 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 16:59:51,279 - process: 19676 - myException.py - utils.myLog - 16 - myException - 程序正常退出
+INFO - 2020-08-09 17:00:03,910 - process: 35480 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 17:00:05,177 - process: 35480 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:00:07,382 - process: 35480 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 17:00:08,435 - process: 35480 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 17:00:35,069 - process: 33136 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 17:00:36,283 - process: 33136 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:00:39,932 - process: 33136 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 17:00:41,050 - process: 33136 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 17:00:57,445 - process: 35048 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 17:00:58,800 - process: 35048 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:01:01,232 - process: 35048 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 17:01:02,464 - process: 35048 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 17:01:09,677 - process: 35048 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:01:12,119 - process: 35048 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:01:13,249 - process: 35048 - myException.py - utils.myLog - 16 - myException - 程序正常退出
+INFO - 2020-08-09 17:03:07,825 - process: 12688 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 17:03:09,187 - process: 12688 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:03:13,455 - process: 12688 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 17:03:14,649 - process: 12688 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 17:03:19,199 - process: 12688 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:03:21,758 - process: 12688 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:03:22,885 - process: 12688 - myException.py - utils.myLog - 16 - myException - 程序正常退出
+INFO - 2020-08-09 17:06:01,474 - process: 34072 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 17:06:02,744 - process: 34072 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:06:05,130 - process: 34072 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 17:06:06,312 - process: 34072 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 17:06:15,048 - process: 32464 - bot1.py - utils.myLog - 62 - bot1 - ======程序开始运行======
+INFO - 2020-08-09 17:06:16,457 - process: 32464 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:06:18,882 - process: 32464 - bot1.py - utils.myLog - 74 - bot1 - 读取并筛选表格数据
+INFO - 2020-08-09 17:06:20,087 - process: 32464 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 17:06:27,616 - process: 32464 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:06:30,120 - process: 32464 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 17:06:31,246 - process: 32464 - myException.py - utils.myLog - 16 - myException - 程序正常退出

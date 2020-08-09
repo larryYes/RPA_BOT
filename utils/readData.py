@@ -1,5 +1,6 @@
 import xlwings as xw
 from utils.myLog import log
+import pdfplumber
 
 
 # 读取Excel表中的所有数据
@@ -24,3 +25,11 @@ def readExcel(EXCEL_FILE):
     app.quit()
     log.get_logger().info("成功：读取Excel", exc_info=True)
     return listExcel
+
+
+def readPdf(path):
+    pdf = pdfplumber.open(path)
+    pdfText = pdf.pages[0]
+    text = pdfText.extract_text()
+    pdf.close()
+    return text

@@ -7,7 +7,8 @@ def bordersStyle(Bot1_EMPLOYEE_XLSX):
     sht = wb.sheets.active
     rng = sht.range('a1').expand('table')
     nRows = rng.rows.count#总行数
-    all = sht.range(f'a1:j{nRows}').options(ndim=2)#读取有数据的单元格
+    print(nRows)
+    all = sht.range(f'a{nRows}:c{nRows}') #读取有数据的单元格
     all.api.HorizontalAlignment = -4108  #水平居中
 
     all.api.Borders(7).LineStyle = 1 #左边框
