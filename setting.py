@@ -24,3 +24,4 @@ Bot2_Data_Xlsx = "../bot2/Data.xlsx"
 Bot2_MacroSheet_Xlsx = "../bot2/MacroSheet.xlsx"
 
 Bot3_URL = 'http://rpademo.automationanywhere.com/master-pdf.php'
+Bot3_XLSX = '../bot3/invoice_template.xlsx'

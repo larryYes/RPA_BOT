@@ -89,13 +89,13 @@ if __name__ == '__main__':
         wb.save(EXCEL_FILE[i - 1])
         wb.close()
         app.quit()
-        bordersStyle(EXCEL_FILE[i - 1])  # 设置表格样式
 
     # 二维列表按列取元素
     outPut = [i[7:10] for i in listExcel]
     # 将数据写入各自的表格中
     for i in range(1, len(outPut)):
         writeData.toExcel([outPut[0], outPut[i]], EXCEL_FILE[i - 1])
+        bordersStyle(EXCEL_FILE[i - 1])  # 设置表格样式
         filename = receivers[i] + "_Bot_1_Output.xlsx"
         print("收件人邮箱：" + receivers[i])
         # sendEmail.email(EXCEL_FILE[i], receivers[0],filename)
