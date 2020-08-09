@@ -550,3 +550,62 @@ INFO - 2020-08-09 20:14:53,624 - process: 25936 - writeData.py - utils.myLog - 2
 INFO - 2020-08-09 20:14:56,241 - process: 25936 - myException.py - utils.myLog - 16 - myException - 程序正常退出
 INFO - 2020-08-09 20:17:49,767 - process: 27336 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
 INFO - 2020-08-09 20:18:31,393 - process: 4736 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 20:33:42,851 - process: 38328 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 20:33:49,829 - process: 38328 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 20:52:18,409 - process: 30748 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 20:52:30,371 - process: 30748 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 20:53:43,635 - process: 38460 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 20:53:48,723 - process: 38460 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 20:54:13,653 - process: 35424 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 20:54:18,133 - process: 35424 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 20:54:41,518 - process: 19764 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 20:54:46,030 - process: 19764 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 20:55:26,484 - process: 37992 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 20:55:30,849 - process: 37992 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 20:56:45,768 - process: 12128 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 20:56:50,393 - process: 12128 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 20:57:50,703 - process: 18812 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 20:57:55,164 - process: 18812 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:02:00,439 - process: 2916 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:02:04,939 - process: 2916 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:03:03,944 - process: 24836 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:03:08,732 - process: 24836 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:03:36,801 - process: 23024 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:03:40,185 - process: 23024 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:03:59,057 - process: 32120 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:04:29,729 - process: 32120 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:04:49,110 - process: 26168 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:04:53,581 - process: 26168 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:05:17,351 - process: 26616 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:05:21,981 - process: 26616 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:05:44,066 - process: 30488 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:05:49,398 - process: 30488 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:06:14,757 - process: 30632 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:06:19,118 - process: 30632 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:08:07,365 - process: 26404 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:08:11,859 - process: 26404 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:12:44,202 - process: 30428 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 21:12:48,534 - process: 30428 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 21:12:50,360 - process: 30428 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 23:15:57,312 - process: 14620 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
+INFO - 2020-08-09 23:16:33,203 - process: 14620 - readData.py - utils.myLog - 26 - readData - 成功：读取Excel
+NoneType: None
+INFO - 2020-08-09 23:16:34,872 - process: 14620 - writeData.py - utils.myLog - 25 - writeData - 成功：list已写入Excel表格
