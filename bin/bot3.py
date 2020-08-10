@@ -1,7 +1,7 @@
 from datetime import datetime
+from time import sleep
 
 import pandas
-
 from utils.downFile import down
 from setting import *
 import pdfplumber
@@ -43,6 +43,8 @@ if __name__ == '__main__':
         text = readPdf(path)
         listData.extend(filterData(text))
     print("你总共写入数据量为：",len(listData))
+
+
     toExcel(listData,Bot3_XLSX,A_Row='a2')#将提取到的数据写入表格
     bordersStyle(Bot3_XLSX)#设置样式
     listBot3 = readExcel(Bot3_XLSX)#读取Excel表中所有数据
@@ -53,8 +55,9 @@ if __name__ == '__main__':
         time = (listBot3[i][6] - datetime(2019, 5, 1)).total_seconds()
         if listBot3[i][7] >= 2 and listBot3[i][9] >=2 and  listBot3[i][10] >= 100 and listBot3[i][5]=="Due on Receipt" and time>0:
             listBot3Out.append(listBot3[i])
+
     save_path = '../bot3/liugji@digitalchinal.com_Bot_3_Output.xlsx'
-    toExcel(listBot3Out, Bot3_Invoice_XLSX, A_Row='a2', SAVE_PATH=save_path)
-    bordersStyle(Bot3_Invoice_XLSX)  # 设置样式
+    toExcel(listBot3Out, Bot3_Invoice_XLSX, A_Row='a2', SAVE_PATH=save_path)#输出文档
+    bordersStyle(save_path)  # 设置样式
 
 

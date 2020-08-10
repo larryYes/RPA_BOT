@@ -3,10 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="172f4ece-26e3-43c9-a38f-cde72747616f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bot2/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Bot2/Data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bot2/MacroSheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Bot2/MacroSheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bot2/liugji@digitalchina.com_Bot2_Output.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/bot3.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bot3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot3/invoice_template.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/bot3/invoice_template.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot1/Employee.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/bot1/Employee.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot1/jaipatel@xyz.com_Bot_1_Output.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot1/mohandev@xyz.com_Bot_1_Output.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot3/invoice.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/bot3/invoice.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot3/invoice01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot3/invoice02.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot3/invoice03.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot3/invoice04.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot3/invoice05.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot3/invoice06.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot3/invoice_template.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot3/liugji@digitalchinal.com_Bot_3_Output.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/report/runtime.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/runtime.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/setStyle.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/setStyle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +50,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\_Code\pythonCode\BOT\bot3" />
+      <recent name="D:\_Code\pythonCode\BOT\bot1" />
       <recent name="D:\_Code\pythonCode\BOT\Bot2" />
       <recent name="D:\_Code\pythonCode\BOT" />
     </key>
@@ -132,8 +147,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.bot3" />
-        <item itemvalue="Python.bot1" />
         <item itemvalue="Python.bot2" />
+        <item itemvalue="Python.bot1" />
         <item itemvalue="Python.readData" />
       </list>
     </recent_temporary>
@@ -154,7 +169,8 @@
       <workItem from="1596703074846" duration="33196000" />
       <workItem from="1596879221037" duration="59000" />
       <workItem from="1596945352171" duration="26658000" />
-      <workItem from="1596978424578" duration="2415000" />
+      <workItem from="1596978424578" duration="3683000" />
+      <workItem from="1597022376879" duration="4709000" />
     </task>
     <servers />
   </component>
@@ -178,38 +194,39 @@
       <screen x="0" y="0" width="1470" height="864" />
     </state>
     <state x="497" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596790981139" />
-    <state x="466" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596979113707">
-      <screen x="0" y="0" width="1470" height="864" />
+    <state x="2509" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597025545441">
+      <screen x="1920" y="0" width="1858" height="1080" />
     </state>
     <state x="466" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1470.864/1920.0.1378.900@0.0.1470.864" timestamp="1596979113707" />
-    <state width="1427" height="246" key="GridCell.Tab.0.bottom" timestamp="1596986153644">
-      <screen x="0" y="0" width="1470" height="864" />
+    <state x="2509" y="228" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1597025545441" />
+    <state width="1815" height="323" key="GridCell.Tab.0.bottom" timestamp="1597026763523">
+      <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1427" height="246" key="GridCell.Tab.0.bottom/0.0.1470.864/1920.0.1378.900@0.0.1470.864" timestamp="1596986153644" />
+    <state width="1427" height="246" key="GridCell.Tab.0.bottom/0.0.1470.864/1920.0.1378.900@0.0.1470.864" timestamp="1596994818243" />
     <state width="1427" height="277" key="GridCell.Tab.0.bottom/0.0.1470.864/1920.0.1378.900@1920.0.1378.900" timestamp="1596978410424" />
     <state width="1427" height="148" key="GridCell.Tab.0.bottom/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596795939537" />
-    <state width="1815" height="231" key="GridCell.Tab.0.bottom/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1596792771450" />
-    <state width="1427" height="246" key="GridCell.Tab.0.center" timestamp="1596986153644">
-      <screen x="0" y="0" width="1470" height="864" />
+    <state width="1815" height="323" key="GridCell.Tab.0.bottom/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1597026763523" />
+    <state width="1815" height="323" key="GridCell.Tab.0.center" timestamp="1597026763523">
+      <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1427" height="246" key="GridCell.Tab.0.center/0.0.1470.864/1920.0.1378.900@0.0.1470.864" timestamp="1596986153644" />
+    <state width="1427" height="246" key="GridCell.Tab.0.center/0.0.1470.864/1920.0.1378.900@0.0.1470.864" timestamp="1596994818243" />
     <state width="1427" height="277" key="GridCell.Tab.0.center/0.0.1470.864/1920.0.1378.900@1920.0.1378.900" timestamp="1596978410424" />
     <state width="1427" height="148" key="GridCell.Tab.0.center/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596795939536" />
-    <state width="1815" height="231" key="GridCell.Tab.0.center/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1596792771450" />
-    <state width="1427" height="246" key="GridCell.Tab.0.left" timestamp="1596986153644">
-      <screen x="0" y="0" width="1470" height="864" />
+    <state width="1815" height="323" key="GridCell.Tab.0.center/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1597026763523" />
+    <state width="1815" height="323" key="GridCell.Tab.0.left" timestamp="1597026763523">
+      <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1427" height="246" key="GridCell.Tab.0.left/0.0.1470.864/1920.0.1378.900@0.0.1470.864" timestamp="1596986153644" />
+    <state width="1427" height="246" key="GridCell.Tab.0.left/0.0.1470.864/1920.0.1378.900@0.0.1470.864" timestamp="1596994818243" />
     <state width="1427" height="277" key="GridCell.Tab.0.left/0.0.1470.864/1920.0.1378.900@1920.0.1378.900" timestamp="1596978410424" />
     <state width="1427" height="148" key="GridCell.Tab.0.left/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596795939536" />
-    <state width="1815" height="231" key="GridCell.Tab.0.left/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1596792771450" />
-    <state width="1427" height="246" key="GridCell.Tab.0.right" timestamp="1596986153644">
-      <screen x="0" y="0" width="1470" height="864" />
+    <state width="1815" height="323" key="GridCell.Tab.0.left/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1597026763523" />
+    <state width="1815" height="323" key="GridCell.Tab.0.right" timestamp="1597026763523">
+      <screen x="1920" y="0" width="1858" height="1080" />
     </state>
-    <state width="1427" height="246" key="GridCell.Tab.0.right/0.0.1470.864/1920.0.1378.900@0.0.1470.864" timestamp="1596986153644" />
+    <state width="1427" height="246" key="GridCell.Tab.0.right/0.0.1470.864/1920.0.1378.900@0.0.1470.864" timestamp="1596994818243" />
     <state width="1427" height="277" key="GridCell.Tab.0.right/0.0.1470.864/1920.0.1378.900@1920.0.1378.900" timestamp="1596978410424" />
     <state width="1427" height="148" key="GridCell.Tab.0.right/0.0.1470.864/1920.0.1858.1080@0.0.1470.864" timestamp="1596795939536" />
-    <state width="1815" height="231" key="GridCell.Tab.0.right/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1596792771450" />
+    <state width="1815" height="323" key="GridCell.Tab.0.right/0.0.1470.864/1920.0.1858.1080@1920.0.1858.1080" timestamp="1597026763523" />
     <state width="1427" height="277" key="GridCell.Tab.1.bottom" timestamp="1596978410424">
       <screen x="1920" y="0" width="1378" height="900" />
     </state>
@@ -256,9 +273,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BOT$bot3.coverage" NAME="bot3 Coverage Results" MODIFIED="1596986153638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
-    <SUITE FILE_PATH="coverage/BOT$bot1.coverage" NAME="bot1 Coverage Results" MODIFIED="1596975269008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
-    <SUITE FILE_PATH="coverage/BOT$bot2.coverage" NAME="bot2 Coverage Results" MODIFIED="1596782399923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/BOT$bot3.coverage" NAME="bot3 Coverage Results" MODIFIED="1597026763523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/BOT$bot1.coverage" NAME="bot1 Coverage Results" MODIFIED="1597022766703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
+    <SUITE FILE_PATH="coverage/BOT$bot2.coverage" NAME="bot2 Coverage Results" MODIFIED="1597022932301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bin" />
     <SUITE FILE_PATH="coverage/BOT$readData.coverage" NAME="readData Coverage Results" MODIFIED="1596702090398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
 </project>
